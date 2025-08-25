@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultExample", "ResultExam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libreries", "Libreries", "{08BB0545-E619-478A-979F-D6523FDDEB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultPattern", "ResultPattern\ResultPattern.csproj", "{A94FDF52-205B-4B5A-BE37-B06DEB0A4E4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultPattern", "Libreries\ResultPattern\ResultPattern.csproj", "{A94FDF52-205B-4B5A-BE37-B06DEB0A4E4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultAspNetCore", "Libreries\ResultAspNetCore\ResultAspNetCore.csproj", "{C24D5028-F53D-4CD2-9AAA-62C68698D0E3}"
 EndProject
