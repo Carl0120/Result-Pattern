@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>10.0</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Rop</RootNamespace>
+        <Authors>Carlos Casanova</Authors>
+        <Version>1.0.0</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Carl0120/ROP.Implementation.git</RepositoryUrl>
+        <Description>A .NET library offering a clean implementation of the Result pattern and Railway-Oriented Programming (ROP). Ideal for error handling in domain layers, enabling expressive pipelines and reducing boilerplate code with a functional approach.</Description>
+    </PropertyGroup>
+</Project>
