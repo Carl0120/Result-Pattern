@@ -52,12 +52,3 @@ jobs:
           name: Test Results (.NET ${{ matrix.dotnet-version }})
           path: "**/*.trx"
           reporter: dotnet-trx
-
-      - name: Code Coverage Report
-        uses: irongut/CodeCoverageSummary@v1
-        if: always()
-        with:
-          filename: "**/coverage.cobertura.xml"
-          format: markdown
-          output: both
-          thresholds: '80 90'
