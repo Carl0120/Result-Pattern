@@ -38,19 +38,6 @@ public static class ResultTapExtensions
         await predicate(resultAction.EnsureValue);
         return resultAction;
     }
-
-
-    public static async Task<ResultAction<TI>> TapIfFiled<TI>(
-        this ResultAction<TI> resultAction,
-        Action predicate)
-    {
-        if (!resultAction.IsFailure) return resultAction;
-       
-        predicate();
-        return resultAction;
-
-    }
-
     public static async Task<ResultAction<TI>> TapIfFiled<TI>(
         this Task<ResultAction<TI>> resultAction,
         Action predicate)
