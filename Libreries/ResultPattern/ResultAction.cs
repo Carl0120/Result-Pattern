@@ -39,7 +39,8 @@ public class ResultAction
         StatusCode = statusCode;
         ValidationErrors = errors?.ToList();
     }
-
+    
+    
     /// <summary>
     /// Crea una respuesta exitosa.
     /// </summary>

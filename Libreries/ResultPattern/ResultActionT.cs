@@ -32,7 +32,10 @@ public class ResultAction<T> : ResultAction
         if (Data is null && ValidationErrors is null)
             throw new InvalidResultStatus();
     }
-
+    public static implicit operator ResultAction<T>(T value) => Success(value);
+    
+    public static implicit operator ResultAction<T>(ErrorValidation error) => BadRequest(error);
+    
     /// <summary>
     /// Crea un resultado exitoso con datos.
     /// </summary>
